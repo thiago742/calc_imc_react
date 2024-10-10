@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; 
+}
+
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.itemForm {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.resultado {
+    margin-top: 20px;
+}
+
+h2 {
+    margin: 10px 0;
+    text-align: center;
+}
